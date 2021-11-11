@@ -1,3 +1,27 @@
+body{
+  background-color: #282c34;
+  margin: 0;
+}
+h1{
+  margin: 0 0 .5rem 0;
+}
+.input{
+  border: 1px solid #333;
+  border-radius: 7px;
+  width: 10em;
+  height: 30px;
+  padding: 0 10px;
+}
+select{
+  margin-left: .5rem;
+  border-radius: 7px;
+  height: 30px;
+}
+.equal{
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +38,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
